@@ -1,0 +1,85 @@
+@font-face
+{
+    font-family: Raleway-Medium;
+    src: url(./resources/fonts/Raleway-Medium.ttf)
+}
+
+
+html *
+{
+    font-family: Raleway-Medium, sans-serif !important;
+}
+
+body
+{
+    background-image: url(./resources/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#titleImage
+{
+    width: 40%;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+#diagramCanvas
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    max-height: 600px;
+}
+
+
+#diagramController
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    --SliderPicture: url(./resources/images/bus_stop_sign.png);
+    width: 250px !important;
+}
+
+input[type="range"]::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    background-color: transparent;
+
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-top: -10px;
+
+    background-image: var(--SliderPicture);
+    background-size: cover;
+}
+
+input[type="range"]::-webkit-slider-runnable-track
+{
+    -webkit-appearance: none;
+
+    height: 10px;
+
+    border-radius: 100px;
+    background: #eee;
+
+    cursor: pointer;
+}
+
+#sources
+{
+    text-align: end;
+    margin-right: 30px;
+}

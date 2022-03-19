@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+
+    <script src="chart.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="titleImage" src="./resources/images/title.png">
+
+    <div>
+        <canvas id="diagramCanvas"></canvas>
+    </div>
+
+    <div id="diagramController">
+        <input id="currentYearInputRange" oninput="changeYear(parseInt(this.value))" type="range" step="1.0">
+        <p id="currentYearParagraph"></p>
+    </div>
+
+    <p id="sources">Source: Statista</p>
+</body>
