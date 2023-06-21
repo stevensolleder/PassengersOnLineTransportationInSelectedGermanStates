@@ -1,12 +1,13 @@
 # PassengersOnLineTransportationInSelectedGermanStates
-![Release](https://img.shields.io/badge/Release-1.0.0-9cf)
-![Java](https://img.shields.io/badge/Java-1.8-9cf)
-![Test](https://img.shields.io/badge/Test-passing-blue)
-
 ## Introduction
-**PassengersOnLineTransportationInSelectedGermanStates** is a 
+This website presents a interactive visualization of passenger numbers in regular transport for selected states in Germany over recent years. Users can select specific years and explore the data through an interactive chart, gaining insights into transportation trends and patterns across regions. The website is designed to be user-friendly, responsive, and visually appealing, providing a comprehensive overview of passenger counts in regular transport.
+
+Feel free to check out the website for yourself at the following link:
+https://stevensolleder.github.io/PassengersOnLineTransportationInSelectedGermanStates/
 <br>
 <br>
+
+![Screenshot of PassengersOnLineTransportationInSelectedGermanStates](https://raw.githubusercontent.com/stevensolleder/PassengersOnLineTransportationInSelectedGermanStates/main/screenshots/main.png)
 
 ## Content data
 - [Passengers on scheduled local bus, streetcar and rail services in Bavaria from 2010 to 2020](https://de.statista.com/statistik/daten/studie/204502/umfrage/fahrgaeste-im-liniennahverkehr-in-bayern/)
