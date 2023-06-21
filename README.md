@@ -8,6 +8,8 @@ https://stevensolleder.github.io/PassengersOnLineTransportationInSelectedGermanS
 <br>
 
 ![Screenshot of PassengersOnLineTransportationInSelectedGermanStates](https://raw.githubusercontent.com/stevensolleder/PassengersOnLineTransportationInSelectedGermanStates/main/screenshots/main.png)
+<br>
+<br>
 
 ## Content data
 - [Passengers on scheduled local bus, streetcar and rail services in Bavaria from 2010 to 2020](https://de.statista.com/statistik/daten/studie/204502/umfrage/fahrgaeste-im-liniennahverkehr-in-bayern/)
